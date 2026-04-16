@@ -1,5 +1,6 @@
 [build]
-builder = "nixpacks"
+builder = "dockerfile"
+dockerfilePath = "vsalon/Dockerfile"
 
 [deploy]
 startCommand = "gunicorn app:app"
